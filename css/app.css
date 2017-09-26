@@ -7560,7 +7560,7 @@ meta.foundation-mq-topbar {
   }
   /* line 640, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li a {
-    background: #ff3535;
+    background: #003865;
     color: #FFFFFF;
     line-height: 3.4375rem;
     padding: 12px 1.14583rem;
@@ -7568,14 +7568,14 @@ meta.foundation-mq-topbar {
   }
   /* line 649, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
-    background: #ff3535;
+    background: #003865;
     color: #FFFFFF;
   }
   /* line 654, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     background-color: #555555;
     color: #FFFFFF;
-    background: #222222;
+    background: #ff3535;
   }
   /* line 663, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -9737,5 +9737,5 @@ th.hide-for-touch {
 }
 /* line 1, ../scss/_custom.scss */
 body {
-  background-color: #0068ba;
+  background-color: #FFFFFF;
 }

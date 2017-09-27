@@ -1,3 +1,48 @@
 body {
     background-color: $white;
 }
+
+.logo {
+    margin-top: rem-calc(30);
+    margin-bottom: rem-calc(30);
+}
+
+h2 {
+    color: $primary-color;
+    text-transform: uppercase;
+    margin: rem-calc(0 0 30 0);
+}
+
+h2:after {
+    content: " ";
+    display: block;
+    background-color:$primary-color;
+    width:rem-calc(40);
+    height: rem-calc(6);
+    margin: 0 auto;
+}
+
+.habitacion-panel {
+    @include panel(
+        $bg:$silver,
+        $padding:rem-calc(20),
+        $adjust:false,
+        $border:false
+    );
+    text-transform:uppercase;
+    
+    h3 {
+        color:$primary-color;
+    }
+}
+
+.boton {
+    @include button(
+        $padding: rem-calc(10),
+        $bg:$secondary-color,
+        $radius: true
+
+    );
+    font-size: rem-calc(16);
+    border-radius: rem-calc(10)!important;
+}

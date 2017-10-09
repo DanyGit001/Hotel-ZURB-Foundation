@@ -48,20 +48,20 @@ h2:after {
 }
 
 footer {
-    background-color: $primary-color;
-    padding-top: rem-calc(15);
+    background-color:$primary-color;
+    padding-top:rem-calc(15);
 
     h4 {
-        color: $white;
-        text-transform: uppercase;
+        color:$white;
+        text-transform:uppercase;
     }
     p,a {
         color:$white;
     }
     p.reservado {
-        background-color: $darkblue;
-        padding: rem-calc(10);
-        margin-bottom: 0;
+        background-color:$darkblue;
+        padding:rem-calc(10);
+        margin-bottom:0;
     }
 
     .footer-nav {
@@ -74,6 +74,96 @@ footer {
             $link-bg-hover:$secondary-color
 
         );
+
+        li {
+            margin:rem-calc(0);
+            a {
+                text-transform:uppercase; 
+            }
+        }
+    }
+
+    input[type="text"].newsletter {
+        @include grid-column($columns:12);
+        box-shadow:none;
     }
 
 }
+
+/** Imagen Destacada **/
+
+div.imagen-destacada {
+    position:relative;
+    margin-bottom: rem-calc(20);
+    
+    .texto-destacada {
+        position: absolute;
+        left:0;
+        bottom:0;
+        padding: rem-calc(10 20);
+        background-color:$primary-color;
+        color:$white;   
+
+
+
+        p {
+           margin:0;
+        }
+    }
+}
+
+.accordion {
+    .accordion-navigation {
+        @include accordion-navigation(
+        $bg:$primary-color,
+        $padding: rem-calc(8),
+        $hover-bg: $secondary-color,
+        $active-bg: $secondary-color,
+        $font-color:$white,
+        $font-size:rem-calc(20)
+        );
+    }
+}
+
+
+
+
+
+
+
+
+@media #{$small-up} { }
+@media #{$small-only} { }
+
+@media #{$medium-up} { 
+div.imagen-destacada {
+    .texto-destacada {
+    bottom:rem-calc(30); 
+    padding: rem-calc(10 50);
+
+
+    }
+    }
+}
+
+
+
+
+
+@media #{$medium-only} { }
+
+@media #{$large-up} { 
+
+      .orbit-caption {
+          width: auto!important;
+          padding: rem-calc(30 20);
+          margin-bottom: rem-calc(50);
+      }
+    }
+@media #{$large-only} { }
+
+@media #{$xlarge-up} { }
+@media #{$xlarge-only} { }
+
+@media #{$xxlarge-up} { }
+@media #{$xxlarge-only} { }

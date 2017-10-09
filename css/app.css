@@ -9893,3 +9893,79 @@ footer .footer-nav li.heading {
   font-weight: bold;
   text-transform: uppercase;
 }
+/* line 78, ../scss/_custom.scss */
+footer .footer-nav li {
+  margin: 0;
+}
+/* line 80, ../scss/_custom.scss */
+footer .footer-nav li a {
+  text-transform: uppercase;
+}
+/* line 86, ../scss/_custom.scss */
+footer input[type="text"].newsletter {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  box-shadow: none;
+}
+
+/** Imagen Destacada **/
+/* line 95, ../scss/_custom.scss */
+div.imagen-destacada {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+/* line 99, ../scss/_custom.scss */
+div.imagen-destacada .texto-destacada {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0.625rem 1.25rem;
+  background-color: #0068ba;
+  color: #FFFFFF;
+}
+/* line 109, ../scss/_custom.scss */
+div.imagen-destacada .texto-destacada p {
+  margin: 0;
+}
+
+/* line 116, ../scss/_custom.scss */
+.accordion .accordion-navigation {
+  display: block;
+  margin-bottom: 0 !important;
+}
+/* line 53, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation.active > a {
+  background: #ff3535;
+  color: #222222;
+}
+/* line 58, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation > a {
+  background: #0068ba;
+  color: #FFFFFF;
+  padding: 0.5rem;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+/* line 93, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation > a:hover {
+  background: #ff3535;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  /* line 140, ../scss/_custom.scss */
+  div.imagen-destacada .texto-destacada {
+    bottom: 1.875rem;
+    padding: 0.625rem 3.125rem;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 157, ../scss/_custom.scss */
+  .orbit-caption {
+    width: auto !important;
+    padding: 1.875rem 1.25rem;
+    margin-bottom: 3.125rem;
+  }
+}

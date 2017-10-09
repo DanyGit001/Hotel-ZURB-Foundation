@@ -46,3 +46,34 @@ h2:after {
     font-size: rem-calc(16);
     border-radius: rem-calc(10)!important;
 }
+
+footer {
+    background-color: $primary-color;
+    padding-top: rem-calc(15);
+
+    h4 {
+        color: $white;
+        text-transform: uppercase;
+    }
+    p,a {
+        color:$white;
+    }
+    p.reservado {
+        background-color: $darkblue;
+        padding: rem-calc(10);
+        margin-bottom: 0;
+    }
+
+    .footer-nav {
+        @include side-nav(
+            $divider-color:$white,
+            $font-size:rem-calc(16),
+            $link-color:$white,
+            $link-color-active:$secondary-color,
+            $link-color-hover:$white,
+            $link-bg-hover:$secondary-color
+
+        );
+    }
+
+}

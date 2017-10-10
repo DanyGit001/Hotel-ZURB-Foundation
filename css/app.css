@@ -9934,6 +9934,7 @@ div.imagen-destacada .texto-destacada p {
 .accordion .accordion-navigation {
   display: block;
   margin-bottom: 0 !important;
+  text-transform: uppercase;
 }
 /* line 53, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation.active > a {
@@ -9953,16 +9954,20 @@ div.imagen-destacada .texto-destacada p {
 .accordion .accordion-navigation > a:hover {
   background: #ff3535;
 }
+/* line 130, ../scss/_custom.scss */
+.accordion .content {
+  text-transform: none;
+}
 
 @media only screen and (min-width: 40.0625em) {
-  /* line 140, ../scss/_custom.scss */
+  /* line 148, ../scss/_custom.scss */
   div.imagen-destacada .texto-destacada {
     bottom: 1.875rem;
     padding: 0.625rem 3.125rem;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 157, ../scss/_custom.scss */
+  /* line 165, ../scss/_custom.scss */
   .orbit-caption {
     width: auto !important;
     padding: 1.875rem 1.25rem;

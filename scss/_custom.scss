@@ -121,7 +121,15 @@ div.imagen-destacada {
         $active-bg: $secondary-color,
         $font-color:$white,
         $font-size:rem-calc(20)
+        
+        
         );
+        text-transform:uppercase; 
+    } 
+
+    .content {
+
+        text-transform: none;
     }
 }
 

@@ -133,6 +133,46 @@ div.imagen-destacada {
     }
 }
 
+/*formulario **/
+
+form {
+    background-color:$white-smoke;
+    fieldset {
+        legend {
+            width:100%;
+            background-color:$secondary-color;
+            text-align:center;
+            color:$white;
+            font-size: rem-calc(22);
+            text-transform:uppercase;
+        }
+        label {
+            text-transform:uppercase;
+        }
+        input,textarea {
+            border-radius:rem-calc(5)!important;
+        }
+    } 
+}
+
+@media #{$small-up} { }
+@media #{$small-only} { }
+
+@media #{$medium-up} { 
+     div.imagen-destacada {
+         .texto-destacada {
+             bottom:rem-calc(30);
+             padding: rem-calc(10 50);
+         }
+     }
+
+}
+@media #{$medium-only} { }
+
+@media #{$large-up} {
+
+}
+
 
 
 

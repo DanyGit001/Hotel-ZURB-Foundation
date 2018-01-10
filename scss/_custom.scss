@@ -238,5 +238,49 @@ div.imagen-destacada {
 @media #{$xlarge-up} { }
 @media #{$xlarge-only} { }
 
+
+.habitacion-panel {
+    margin-bottom: 0;
+}
+
+.info-habitacion {
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+    .mas-informacion {
+        background-color: rgba($primary-color, .8);
+    background-clip: content-box;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left:0;
+    opacity: 0;
+    transition: all 1s ease;
+    text-align: center;
+
+    a {
+        font-size: rem-calc(24);
+        border: 5px solid $white;
+        color: $white;
+        margin: 0 auto;
+        width:80%;
+        display: block;
+        margin-top: rem-calc(120);
+
+    }
+    
+    }
+}
+
+.info-habitacion:hover {
+
+    .mas-informacion {
+        opacity:1;
+    }
+}
+    
+
+
 @media #{$xxlarge-up} { }
 @media #{$xxlarge-only} { }

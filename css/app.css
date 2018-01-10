@@ -7951,9 +7951,9 @@ p aside {
 /* line 255, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.4;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
@@ -10027,4 +10027,43 @@ form fieldset input, form fieldset textarea {
     padding: 1.875rem 1.25rem;
     margin-bottom: 3.125rem;
   }
+}
+/* line 242, ../scss/_custom.scss */
+.habitacion-panel {
+  margin-bottom: 0;
+}
+
+/* line 246, ../scss/_custom.scss */
+.info-habitacion {
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+/* line 251, ../scss/_custom.scss */
+.info-habitacion .mas-informacion {
+  background-color: rgba(0, 104, 186, 0.8);
+  background-clip: content-box;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 1s ease;
+  text-align: center;
+}
+/* line 262, ../scss/_custom.scss */
+.info-habitacion .mas-informacion a {
+  font-size: 1.5rem;
+  border: 5px solid #FFFFFF;
+  color: #FFFFFF;
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+  margin-top: 7.5rem;
+}
+
+/* line 278, ../scss/_custom.scss */
+.info-habitacion:hover .mas-informacion {
+  opacity: 1;
 }

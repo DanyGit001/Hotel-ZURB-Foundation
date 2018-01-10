@@ -22,6 +22,10 @@ h2:after {
     margin: 0 auto;
 }
 
+div.slider {
+    margin-bottom:rem-calc(30); 
+}
+
 /** MENU SOCIAL **/
 
 .menu-social {
@@ -190,6 +194,10 @@ form {
              padding: rem-calc(10 50);
          }
      }
+div.slider {
+    margin-bottom:rem-calc(0);
+}
+
 
 }
 @media #{$medium-only} { }
@@ -254,7 +262,7 @@ div.imagen-destacada {
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0; left:0;
+    bottom: rem-calc(200); left:0;
     opacity: 0;
     transition: all 1s ease;
     text-align: center;
@@ -277,6 +285,7 @@ div.imagen-destacada {
 
     .mas-informacion {
         opacity:1;
+        bottom:0;
     }
 }
     

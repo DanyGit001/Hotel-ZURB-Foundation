@@ -7072,7 +7072,7 @@ meta.foundation-mq-topbar {
 }
 /* line 331, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li {
-  background: #ff3535;
+  background: #0068ba;
 }
 /* line 334, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
@@ -9763,31 +9763,36 @@ h2:after {
   margin: 0 auto;
 }
 
+/* line 25, ../scss/_custom.scss */
+div.slider {
+  margin-bottom: 1.875rem;
+}
+
 /** MENU SOCIAL **/
-/* line 28, ../scss/_custom.scss */
+/* line 32, ../scss/_custom.scss */
 .menu-social li {
   display: inline;
   background-color: transparent !important;
 }
-/* line 31, ../scss/_custom.scss */
+/* line 35, ../scss/_custom.scss */
 .menu-social li a {
   background-color: transparent !important;
 }
-/* line 33, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 .menu-social li a i {
   font-size: 2.5rem;
 }
-/* line 38, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 .menu-social li a:hover i {
   color: #FFFFFF;
 }
 
-/* line 45, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 footer .menu-social li {
   margin-right: 1.25rem;
 }
 
-/* line 50, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
 .habitacion-panel {
   border-style: none;
   border-width: 0;
@@ -9805,12 +9810,12 @@ footer .menu-social li {
 .habitacion-panel > :last-child {
   margin-bottom: 0;
 }
-/* line 59, ../scss/_custom.scss */
+/* line 63, ../scss/_custom.scss */
 .habitacion-panel h3 {
   color: #0068ba;
 }
 
-/* line 64, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 .boton {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -9845,27 +9850,27 @@ footer .menu-social li {
   color: #FFFFFF;
 }
 
-/* line 75, ../scss/_custom.scss */
+/* line 79, ../scss/_custom.scss */
 footer {
   background-color: #0068ba;
   padding-top: 0.9375rem;
 }
-/* line 79, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 footer h4 {
   color: #FFFFFF;
   text-transform: uppercase;
 }
-/* line 83, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 footer p, footer a {
   color: #FFFFFF;
 }
-/* line 86, ../scss/_custom.scss */
+/* line 90, ../scss/_custom.scss */
 footer p.reservado {
   background-color: #003865;
   padding: 0.625rem;
   margin-bottom: 0;
 }
-/* line 92, ../scss/_custom.scss */
+/* line 96, ../scss/_custom.scss */
 footer .footer-nav {
   display: block;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -9917,15 +9922,15 @@ footer .footer-nav li.heading {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 103, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 footer .footer-nav li {
   margin: 0;
 }
-/* line 105, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 footer .footer-nav li a {
   text-transform: uppercase;
 }
-/* line 111, ../scss/_custom.scss */
+/* line 115, ../scss/_custom.scss */
 footer input[type="text"].newsletter {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -9935,12 +9940,12 @@ footer input[type="text"].newsletter {
 }
 
 /** Imagen Destacada **/
-/* line 120, ../scss/_custom.scss */
+/* line 124, ../scss/_custom.scss */
 div.imagen-destacada {
   position: relative;
   margin-bottom: 1.25rem;
 }
-/* line 124, ../scss/_custom.scss */
+/* line 128, ../scss/_custom.scss */
 div.imagen-destacada .texto-destacada {
   position: absolute;
   left: 0;
@@ -9949,12 +9954,12 @@ div.imagen-destacada .texto-destacada {
   background-color: #0068ba;
   color: #FFFFFF;
 }
-/* line 134, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 div.imagen-destacada .texto-destacada p {
   margin: 0;
 }
 
-/* line 141, ../scss/_custom.scss */
+/* line 145, ../scss/_custom.scss */
 .accordion .accordion-navigation {
   display: block;
   margin-bottom: 0 !important;
@@ -9978,17 +9983,17 @@ div.imagen-destacada .texto-destacada p {
 .accordion .accordion-navigation > a:hover {
   background: #ff3535;
 }
-/* line 155, ../scss/_custom.scss */
+/* line 159, ../scss/_custom.scss */
 .accordion .content {
   text-transform: none;
 }
 
 /*formulario **/
-/* line 163, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 form {
   background-color: #F5F5F5;
 }
-/* line 166, ../scss/_custom.scss */
+/* line 170, ../scss/_custom.scss */
 form fieldset legend {
   width: 100%;
   background-color: #ff3535;
@@ -9997,62 +10002,67 @@ form fieldset legend {
   font-size: 1.375rem;
   text-transform: uppercase;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
 form fieldset label {
   text-transform: uppercase;
 }
-/* line 177, ../scss/_custom.scss */
+/* line 181, ../scss/_custom.scss */
 form fieldset input, form fieldset textarea {
   border-radius: 0.3125rem !important;
 }
 
 @media only screen and (min-width: 40.0625em) {
-  /* line 188, ../scss/_custom.scss */
+  /* line 192, ../scss/_custom.scss */
   div.imagen-destacada .texto-destacada {
     bottom: 1.875rem;
     padding: 0.625rem 3.125rem;
   }
+
+  /* line 197, ../scss/_custom.scss */
+  div.slider {
+    margin-bottom: 0;
+  }
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 213, ../scss/_custom.scss */
+  /* line 221, ../scss/_custom.scss */
   div.imagen-destacada .texto-destacada {
     bottom: 1.875rem;
     padding: 0.625rem 3.125rem;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 230, ../scss/_custom.scss */
+  /* line 238, ../scss/_custom.scss */
   .orbit-caption {
     width: auto !important;
     padding: 1.875rem 1.25rem;
     margin-bottom: 3.125rem;
   }
 }
-/* line 242, ../scss/_custom.scss */
+/* line 250, ../scss/_custom.scss */
 .habitacion-panel {
   margin-bottom: 0;
 }
 
-/* line 246, ../scss/_custom.scss */
+/* line 254, ../scss/_custom.scss */
 .info-habitacion {
   overflow: hidden;
   cursor: pointer;
   position: relative;
 }
-/* line 251, ../scss/_custom.scss */
+/* line 259, ../scss/_custom.scss */
 .info-habitacion .mas-informacion {
   background-color: rgba(0, 104, 186, 0.8);
   background-clip: content-box;
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 0;
+  bottom: 12.5rem;
   left: 0;
   opacity: 0;
   transition: all 1s ease;
   text-align: center;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 270, ../scss/_custom.scss */
 .info-habitacion .mas-informacion a {
   font-size: 1.5rem;
   border: 5px solid #FFFFFF;
@@ -10063,7 +10073,8 @@ form fieldset input, form fieldset textarea {
   margin-top: 7.5rem;
 }
 
-/* line 278, ../scss/_custom.scss */
+/* line 286, ../scss/_custom.scss */
 .info-habitacion:hover .mas-informacion {
   opacity: 1;
+  bottom: 0;
 }
